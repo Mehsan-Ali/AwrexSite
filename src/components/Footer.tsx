@@ -21,8 +21,7 @@ const Footer = () => {
                             </h2>
                         </div>
                         <p className='font-thin tracking-wider text-sm'>
-                            {/* Get ready to revolutionize your online presence with Awrex Ltd.! Say goodbye to digital chaos and hello to web wonders. Let’s elevate your digital game together, because settling for average is a thing of the past! Are you prepared to leave your competitors in awrex? */}
-                            Transforming ideas into digital reality since 2015. We build custom software solutions that drive business growth.
+                            Transforming data into actionable insights for businesses worldwide.
                         </p>
 
                         {/* ------------Socail Media------------ */}

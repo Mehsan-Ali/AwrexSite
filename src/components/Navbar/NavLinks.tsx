@@ -137,9 +137,9 @@ export const ChildLinks = [
         url: "/contact-us",
         submenu: false
     },
-    {
-        name: "Appointment",
-        url: "/schedule",
-        submenu: false
-    }
+    // {
+    //     name: "Appointment",
+    //     url: "/schedule",
+    //     submenu: false
+    // }
 ];
