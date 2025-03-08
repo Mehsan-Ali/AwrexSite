@@ -44,13 +44,8 @@ export function NavBar() {
             initial={{ y: -100 }}
             animate={{ y: scrollDirection === 'down' ? -100 : 0 }}
             transition={{ duration: 0.3 }}
-            // className="z-50 w-full bg-gradient-to-l from-sky-950 via-gray-900 to-sky-900 backdrop-blur-lg"
-            // className="z-50 w-full bg-gradient-to-r from-[#310913]  to-[#06252e] backdrop-blur-lg"
-            // className="sticky top-0 z-50 w-full bg-gradient-to-r from-[#000000] to-[#032730]"
-            className="sticky top-0 z-50 w-full"   
+            className="sticky top-0 z-50 md:py-0 py-2 w-full bg-[#ffffff2f] backdrop-blur-sm "   
         >
-            <div className='absolute w-full bg-[#ffffff1e] backdrop-blur-sm h-18'>
-            </div>
             <div className="container mx-auto flex justify-between items-center px-6 py-3 sm:py-0">
                 <Link to="/" className="flex items-center space-x-2">
                     <motion.span
@@ -80,7 +75,7 @@ export function NavBar() {
                                 {link.submenu && openDropdown === index && (
                                     <div>
                                         <div
-                                            className="absolute -right-20 rounded-lg shadow-lg"
+                                            className="absolute -left-130 rounded-lg shadow-lg"
                                             onMouseEnter={() => setOpenDropdown(index)}
                                             onMouseLeave={() => setOpenDropdown(null)}
                                         >
