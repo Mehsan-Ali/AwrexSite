@@ -15,7 +15,7 @@ const RouterNav = () => {
                 <Route path="/about-us" element={<AboutPage />} />
                 <Route path="/contact-us" element={<ContactPage />} />
                 <Route path="/schedule" element={<SchedulePage />} />
-                <Route path="/services/web-development" element={<ServicesPages />} />
+                <Route path="/services/:service" element={<ServicesPages />} />
             </Routes>
         </>
     )

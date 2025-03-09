@@ -8,7 +8,7 @@ export const ChildLinks = [
                 Head: "Services",
                 sublink: [
                     { name: "Software Development", link: "/services/software-development" },
-                    { name: "Web Development & Maintenance", link: "/services/web-app-development-maintenance" },
+                    { name: "Web Development & Maintenance", link: "/services/web-development-maintenance" },
                     { name: "Mobile App Development", link: "/services/mobile-app-development" },
                     { name: "Automation & QA Testing", link: "/services/automation-and-qa-testing" },
                     { name: "Systems Re-Engineering", link: "/services/systems-re-engineering" },
