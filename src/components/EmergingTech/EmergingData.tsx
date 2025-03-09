@@ -1,4 +1,4 @@
-import { BarChart, Check, Code, Globe, Lightbulb, Rocket, Shield, Smartphone, Zap } from "lucide-react";
+import { BarChart, Check, Code, Globe, Lightbulb, Rocket, Shield, Zap } from "lucide-react";
 import DataScienceImage from "../../assets/Emerging/data.png";
 import AIImage from "../../assets/Emerging/ai.png";
 import MachineLearningImage from "../../assets/Emerging/machineLearning.png";
