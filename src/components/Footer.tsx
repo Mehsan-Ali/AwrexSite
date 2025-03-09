@@ -38,6 +38,24 @@ const Footer = () => {
                     </div>
 
                     <div className='flex flex-col gap-3 text-gray-100 flex-grow'>
+                        <h1 className='font-bold text-xl py-4 uppercase'>Services</h1>
+                        <ul className='flex flex-col gap-5'>
+                            {
+                                serviceLinks.map((item, index) => (
+                                    <a href={item.path} key={index} className='py-1'>
+                                        <li className='hover:text-[#d4d4d4] hover:transition hover:ease-linear hover:duration-300 hover:translate-x-3 duration-300'>
+                                            {/* {item.icon} */}
+                                            <span className='relative pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-[#ffffff] after:transition-all after:duration-300 hover:after:w-full '>
+                                                {item.title}
+                                            </span>
+                                        </li>
+                                    </a>
+                                ))
+                            }
+                        </ul>
+                    </div>
+
+                    <div className='flex flex-col gap-3 text-gray-100 flex-grow'>
                         <h1 className='font-bold text-xl py-4 uppercase'>Links</h1>
                         <ul className='flex flex-col gap-5'>
                             {
@@ -117,9 +135,9 @@ const socialLogos = [
 const usefulLinks = [
     {
         id: 1,
-        title: "About Us",
+        title: "Schedule a Consultation",
         icon: <MoveRight />,
-        path: '/about'
+        path: '/schedule'
     },
     {
         id: 2,
@@ -127,23 +145,44 @@ const usefulLinks = [
         icon: <MoveRight />,
         path: '/contact'
     },
-    // {
-    //     id: 3,
-    //     title: "Services",
-    //     icon: <MoveRight />,
-    //     path: '/services'
-    // },
     {
-        id: 4,
-        title: "Projects SOIFS",
+        id: 3,
+        title: "About Us",
         icon: <MoveRight />,
-        path: '/project'
+        path: '/about-us'
     },
     {
-        id: 5,
+        id: 4,
         title: "FAQs",
         icon: <MoveRight />,
         path: '/faqs'
+    },
+]
+
+const serviceLinks = [
+    {
+        id: 1,
+        title: "Software Development",
+        icon: <MoveRight />,
+        path: '/services/software-development'
+    },
+    {
+        id: 2,
+        title: "Web Development & Maintenance",
+        icon: <MoveRight />,
+        path: '/services/web-development-maintenance'
+    },
+    {
+        id: 3,
+        title: "Mobile App Development",
+        icon: <MoveRight />,
+        path: '/services/mobile-app-development'
+    },
+    {
+        id: 4,
+        title: "UI UX Design",
+        icon: <MoveRight />,
+        path: '/services/ui-ux-design'
     },
 ]
 

@@ -5,6 +5,7 @@ import AboutPage from '../pages/AboutPage'
 import ContactPage from '../pages/ContactPage'
 import SchedulePage from '../pages/SchedulePage'
 import ServicesPages from './OurServices/ServicesPages'
+import SolutionsPages from './OurSolutions/SolutionsPages'
 
 const RouterNav = () => {
     return (
@@ -15,7 +16,11 @@ const RouterNav = () => {
                 <Route path="/about-us" element={<AboutPage />} />
                 <Route path="/contact-us" element={<ContactPage />} />
                 <Route path="/schedule" element={<SchedulePage />} />
+
                 <Route path="/services/:service" element={<ServicesPages />} />
+                <Route path="/solutions/:solution" element={<SolutionsPages />} />
+
+                <Route path="*" element={<HomePage/>} />    
             </Routes>
         </>
     )

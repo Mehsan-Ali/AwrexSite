@@ -1,6 +1,4 @@
 import { ArrowRight, Badge } from 'lucide-react'
-import SoftwareServices from "../../assets/support.png"
-import { s } from 'framer-motion/client'
 import { NavLink } from 'react-router-dom'
 
 const ServiceHero = ({ service }: { service: any }) => {

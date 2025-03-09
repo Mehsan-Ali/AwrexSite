@@ -1,38 +1,5 @@
-import { Check, Code, Globe, Lightbulb, Rocket, Shield } from "lucide-react"
 
 export default function BenefitsSection({ service }: { service: any }) {
-    const benefits = [
-        {
-            icon: <Rocket className="h-6 w-6 text-primary flex-shrink-0" />,
-            title: "Lightning-Fast Performance",
-            description: "Optimized code and modern architecture ensure your website loads in milliseconds, not seconds.",
-        },
-        {
-            icon: <Shield className="h-6 w-6 text-primary flex-shrink-0" />,
-            title: "Rock-Solid Security",
-            description: "Built-in protection against common vulnerabilities with regular security updates and monitoring.",
-        },
-        {
-            icon: <Code className="h-6 w-6 text-primary flex-shrink-0" />,
-            title: "Clean, Maintainable Code",
-            description: "Well-structured codebase that's easy to maintain and scale as your business grows.",
-        },
-        {
-            icon: <Globe className="h-6 w-6 text-primary flex-shrink-0" />,
-            title: "Responsive By Design",
-            description: "Flawless experience across all devices, from desktop to mobile, with adaptive layouts.",
-        },
-        {
-            icon: <Check className="h-6 w-6 text-primary flex-shrink-0" />,
-            title: "Accessibility First",
-            description: "Inclusive design practices ensuring your website is usable by everyone, regardless of ability.",
-        },
-        {
-            icon: <Lightbulb className="h-6 w-6 text-primary flex-shrink-0" />,
-            title: "Future-Proof Technology",
-            description: "Built with cutting-edge frameworks and tools that keep your site relevant for years to come.",
-        },
-    ]
 
     return (
         <section className="py-20 bg-background">

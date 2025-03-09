@@ -15,7 +15,6 @@ const ServicesPages = () => {
 	console.log(currentService?.title)
 	return (
 		<>
-			{/* -----------------  Hero Section ----------------- */}
 			<ServiceHero service={currentService} />
 			<FeaturesSection service={currentService} />
 			<BenefitsSection service={currentService}/>
