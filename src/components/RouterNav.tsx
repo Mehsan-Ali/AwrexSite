@@ -6,6 +6,7 @@ import ContactPage from '../pages/ContactPage'
 import SchedulePage from '../pages/SchedulePage'
 import ServicesPages from './OurServices/ServicesPages'
 import SolutionsPages from './OurSolutions/SolutionsPages'
+import EmergingPages from './EmergingTech/EmergingPage'
 
 const RouterNav = () => {
     return (
@@ -19,6 +20,7 @@ const RouterNav = () => {
 
                 <Route path="/services/:service" element={<ServicesPages />} />
                 <Route path="/solutions/:solution" element={<SolutionsPages />} />
+                <Route path="/emerging-tech/:emerging" element={<EmergingPages />} />
 
                 <Route path="*" element={<HomePage/>} />    
             </Routes>

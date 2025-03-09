@@ -1,20 +1,20 @@
 import { useParams } from "react-router-dom"
-import { SolutionsData } from "./SolutionsData"
+import { EmergingData } from "./EmergingData";
 import ProcessSection from "../OurServices/ServiceProcess";
 import TestimonialsCarousel from "../Testimonials";
 import CallToAction from "../AboutComp/CallToAction";
-import SolutionHero from "./SolutionHero";
 import FeaturesSection from "./KeyFeatures";
 import BenefitsSection from "./WhyChooseUs";
+import EmergingHero from "./EmergingHero";
 
-const SolutionsPages = () => {
-	const param = useParams<{ solution: string | undefined }>()
-	const currentService = SolutionsData.find(solution => solution.url.includes(param.solution || ''));
+const EmergingPages = () => {
+	const param = useParams<{ emerging: string | undefined }>()
+	const currentService = EmergingData.find(emerging => emerging.url.includes(param.emerging || ''));
 	return (
 		<>
-			<SolutionHero solution={currentService} />
+			<EmergingHero solution={currentService} />
 			<FeaturesSection solution={currentService} />
-			<BenefitsSection solution={currentService}/>
+			<BenefitsSection solution={currentService} />
 			<ProcessSection />
 			<TestimonialsCarousel />
 			<CallToAction />
@@ -22,4 +22,4 @@ const SolutionsPages = () => {
 	)
 }
 
-export default SolutionsPages
+export default EmergingPages

@@ -1,7 +1,7 @@
 import { ArrowRight, Badge } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
 
-const SolutionHero = ({ solution }: { solution: any }) => {
+const EmergingHero = ({ solution }: { solution: any }) => {
     return (
         <>
             <div className="px-14 py-20 md:py-0 text-black min-h-screen grid gap-8 lg:grid-cols-2 lg:gap-16">
@@ -53,4 +53,4 @@ const SolutionHero = ({ solution }: { solution: any }) => {
     )
 }
 
-export default SolutionHero
+export default EmergingHero
