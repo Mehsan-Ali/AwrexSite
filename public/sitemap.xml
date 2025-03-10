@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Static Pages -->
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <lastmod>2023-09-20</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/about-us</loc>
+    <lastmod>2023-09-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/contact-us</loc>
+    <lastmod>2023-09-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/schedule</loc>
+    <lastmod>2023-09-20</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

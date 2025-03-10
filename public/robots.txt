@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.awrex.co.uk/sitemap.xml
