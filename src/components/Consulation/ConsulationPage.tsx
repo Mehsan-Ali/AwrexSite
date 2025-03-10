@@ -7,12 +7,15 @@ import FeaturesSection from "./KeyFeatures";
 import BenefitsSection from "./WhyChooseUs";
 import { ConsulationData } from "./ConsulationData";
 import ConsulationHero from "./ConsulationHero";
+import SEOAdjust from "../SEOAdjust";
 
 const ConsulationPage = () => {
 	const param = useParams<{ consulation: string | undefined }>()
 	const currentService = ConsulationData.find(consulation => consulation.url.includes(param.consulation || ''));
 	return (
 		<>
+
+			<SEOAdjust title='About Us' description='About Us Page' />
 			<ConsulationHero solution={currentService} />
 			<FeaturesSection solution={currentService} />
 			<BenefitsSection solution={currentService} />

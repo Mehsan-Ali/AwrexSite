@@ -6,21 +6,23 @@ import GetInTouch from '../components/HomeComp/GetInTouch'
 import GradientBackground from '../components/HomeComp/HeroSection'
 import ProductsShowcase from '../components/HomeComp/Products'
 import Marquee from '../components/MarqueText'
+import SEOAdjust from '../components/SEOAdjust'
 import TestimonialsCarousel from '../components/Testimonials'
 import Timeline from '../components/Timeline'
 
 const HomePage = () => {
     return (
         <>
-            <GradientBackground/>
-            <CoreServices/>
-            <ProductsShowcase/>
-            <WhyChooseUs/>
-            <ModernAboutSection/>
-            <Marquee/>
-            <Timeline/>
-            <TestimonialsCarousel/>
-            <CallToAction/>
+            <SEOAdjust title='About Us' description='About Us Page' />
+            <GradientBackground />
+            <CoreServices />
+            <ProductsShowcase />
+            <WhyChooseUs />
+            <ModernAboutSection />
+            <Marquee />
+            <Timeline />
+            <TestimonialsCarousel />
+            <CallToAction />
             {/* <GetInTouch/> */}
         </>
     )

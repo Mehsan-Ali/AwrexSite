@@ -6,6 +6,7 @@ import FeaturesSection from "./KeyFeatures"
 import BenefitsSection from "./WhyChooseUs"
 import { useParams } from "react-router-dom"
 import { ServiceData } from "./ServiceData"
+import SEOAdjust from "../SEOAdjust"
 
 const ServicesPages = () => {
 	const param = useParams<{ service: string | undefined }>()
@@ -15,9 +16,10 @@ const ServicesPages = () => {
 	console.log(currentService?.title)
 	return (
 		<>
+			<SEOAdjust title='About Us' description='About Us Page' />
 			<ServiceHero service={currentService} />
 			<FeaturesSection service={currentService} />
-			<BenefitsSection service={currentService}/>
+			<BenefitsSection service={currentService} />
 			<ProcessSection />
 			<TestimonialsCarousel />
 			<CallToAction />
