@@ -1,4 +1,4 @@
-import { MoveRight, Facebook, Instagram, Linkedin, Mail, MapPinned, PhoneCall, Twitter, X, Youtube, YoutubeIcon, LucideYoutube } from 'lucide-react';
+import { MoveRight, Facebook, Linkedin, Mail, MapPinned, PhoneCall, X, Youtube } from 'lucide-react';
 import Logo from "../assets/Awrex2.jpg"
 
 const Footer = () => {

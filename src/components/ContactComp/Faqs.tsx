@@ -2,7 +2,6 @@ import { useState } from 'react'
 // import HeadingLogo from '../../assets/Heading.png'
 import { motion } from 'framer-motion';
 import { ChevronDown, ChevronUp } from 'lucide-react'
-import { NavLink } from 'react-router-dom';
 
 const FaqLandingPage = () => {
     const [activeFaq, setActiveFaq] = useState<number | null>(null); // Allow string or null

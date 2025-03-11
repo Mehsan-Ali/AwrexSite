@@ -1,21 +1,21 @@
 
-export default function BenefitsSection({ solution }: { solution: any }) {
+export default function BenefitsSection({ consulation }: { consulation: any }) {
 
     return (
         <section className="py-20 bg-background">
             <div className="px-4 md:px-6">
                 <div className="text-center mb-16">
                     <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-gray-950 to-blue-100 text-3xl font-bold tracking-tight sm:text-4xl">
-                        Why Choose Our {solution.title} solution?
+                        Why Choose Our {consulation.title} consulation?
                     </h2>
                     <p className="mt-4 text-base sm:text-lg text-gray-900 max-w-3xl mx-auto">
-                        {solution.whyChooseSubHeading}
+                        {consulation.whyChooseSubHeading}
                     </p>
                 </div>
 
                 <div className="max-w-5xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-8">
-                        {solution.whyChoose.map((benefit: any, index: number) => (
+                        {consulation.whyChoose.map((benefit: any, index: number) => (
                             <div key={index} className="flex gap-4 items-start border-b border-r border-gray-300 shadow-sm p-3 sm:p-5 rounded-lg bg-white">
                                 <div className="rounded-full bg-gray-950/10 p-3">{benefit.icon}</div>
                                 <div>

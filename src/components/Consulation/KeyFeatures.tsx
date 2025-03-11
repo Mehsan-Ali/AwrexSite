@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react"
 
-export default function FeaturesSection({ solution }: { solution: any }) {
+export default function FeaturesSection({ consulation }: { consulation: any }) {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
     return (
@@ -14,12 +14,12 @@ export default function FeaturesSection({ solution }: { solution: any }) {
                         Key <span className="text-primary">Features</span>
                     </h2>
                     <p className="max-w-[85%] text-muted-foreground text-lg">
-                        {solution.keyFeatIntro}
+                        {consulation.keyFeatIntro}
                     </p>
                 </div>
 
                 <div className="mx-auto grid max-w-6xl gap-8 py-8 sm:grid-cols-2 lg:grid-cols-3">
-                    {solution.keyFeatures.map((feature: any, index: number) => (
+                    {consulation.keyFeatures.map((feature: any, index: number) => (
                         <div
                             key={index}
                             className="group perspective-1000"

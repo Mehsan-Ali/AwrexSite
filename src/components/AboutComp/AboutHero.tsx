@@ -1,4 +1,3 @@
-import { ChevronRight } from 'lucide-react'
 import AboutImage from '../../assets/AboutHero.webp'
 
 const AboutHero = () => {

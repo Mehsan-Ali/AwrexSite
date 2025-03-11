@@ -1,7 +1,7 @@
 import { ArrowRight, Badge } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
 
-const ConsulationHero = ({ solution }: { solution: any }) => {
+const ConsulationHero = ({ consulation }: { consulation: any }) => {
     return (
         <>
             <div className="px-14 py-20 md:py-0 text-black min-h-screen grid gap-8 lg:grid-cols-2 lg:gap-16">
@@ -9,18 +9,18 @@ const ConsulationHero = ({ solution }: { solution: any }) => {
                     <span className="flex items-center gap-2 bg-slate-600 w-fit px-3 py-1 rounded-full">
                         <Badge className="w-4 h-4 text-white" />
                         <h3 className="text-sm md:text-base text-white">
-                            {solution.title}
+                            {consulation.title}
                         </h3>
                     </span>
 
                     <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-blue-100 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-                        {solution.title}
+                        {consulation.title}
                     </h1>
                     <p className="max-w-[600px] font-semibold text-slate-900 text-base md:text-lg lg:text-xl">
-                        {solution.description}
+                        {consulation.description}
                     </p>
                     <p className="text-gray-600 text-sm md:text-base">
-                        {solution.intro}
+                        {consulation.intro}
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
@@ -39,7 +39,7 @@ const ConsulationHero = ({ solution }: { solution: any }) => {
                     <div className="relative w-full max-w-xl">
                         <div className="absolute -bottom-16 -left-16 h-64 w-64 rounded-full bg-blue-700/20 blur-3xl" />
                         <img
-                            src={solution.image}
+                            src={consulation.image}
                             alt="Software Development"
                             width={600}
                             height={600}

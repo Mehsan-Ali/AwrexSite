@@ -16,9 +16,9 @@ const ConsulationPage = () => {
 		<>
 
 			<SEOAdjust title='About Us' description='About Us Page' />
-			<ConsulationHero solution={currentService} />
-			<FeaturesSection solution={currentService} />
-			<BenefitsSection solution={currentService} />
+			<ConsulationHero consulation={currentService} />
+			<FeaturesSection consulation={currentService} />
+			<BenefitsSection consulation={currentService} />
 			<ProcessSection />
 			<TestimonialsCarousel />
 			<CallToAction />
