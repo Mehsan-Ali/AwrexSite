@@ -14,7 +14,7 @@ const SolutionsPages = () => {
 	return (
 		<>
 
-			<SEOAdjust title='About Us' description='About Us Page' />
+			{/* <SEOAdjust title='About Us' description='About Us Page' /> */}
 			<SolutionHero solution={currentService} />
 			<FeaturesSection solution={currentService} />
 			<BenefitsSection solution={currentService} />
