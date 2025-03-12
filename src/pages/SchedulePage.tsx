@@ -5,7 +5,11 @@ import SEOAdjust from '../components/SEOAdjust'
 const SchedulePage = () => {
     return (
         <>
-            <SEOAdjust title='About Us' description='About Us Page' />
+            <SEOAdjust
+                title="Schedule a Consultation | Custom Software Development | AWREX"
+                description="Schedule a consultation with AWREX to discuss your custom software development, web and app development, or DevOps needs. Let's create scalable solutions for your business."
+            />
+
             <ScheduleHero />
             <ScheduleForm />
         </>

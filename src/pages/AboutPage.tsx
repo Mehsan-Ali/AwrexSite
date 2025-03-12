@@ -9,7 +9,11 @@ import SEOAdjust from '../components/SEOAdjust'
 const AboutPage = () => {
     return (
         <>
-            <SEOAdjust title='About Us' description='About Us Page' />
+            <SEOAdjust
+                title="About Us | Custom Software Development & IT Solutions"
+                description="Learn more about our expertise in custom software development, web and app development, system design, and DevOps. We deliver innovative IT solutions to drive your business growth."
+            />
+
             <AboutHeader />
             {/* <AboutHero/> */}
             <ModernAbout />

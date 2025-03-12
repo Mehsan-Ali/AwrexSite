@@ -15,6 +15,8 @@ export const ServiceData = [
     {
         id: 1,
         url: "/services/software-development",
+        SEOTitle: "Software Development | Custom Solutions for Your Business | AWREX",
+        SEOdescription: "Build custom software solutions tailored to your business needs. AWREX specializes in delivering scalable, innovative, and efficient software development services to transform your operations.",
         title: "Software Development",
         description: "Build custom software solutions tailored to your business needs",
         image: SoftwareDevelopment,
@@ -95,6 +97,8 @@ export const ServiceData = [
     {
         id: 2,
         url: "/services/web-development-maintenance",
+        SEOTitle: "Web App Development & Maintenance | Scalable Solutions | AWREX",
+        SEOdescription: "AWREX offers expert web app development and maintenance services. We build scalable, secure, and high-performance web applications to meet your business needs and ensure seamless operations.",
         title: "Web App Development & Maintenance",
         description: "Custom web applications built for your business",
         image: WebDevelopment,
@@ -175,6 +179,8 @@ export const ServiceData = [
     {
         id: 3,
         url: "/services/mobile-app-development",
+        SEOTitle: "Mobile App Development | Custom Solutions for iOS & Android | AWREX",
+        SEOdescription: "AWREX specializes in mobile app development for iOS and Android. We build user-friendly, scalable, and high-performance mobile applications to drive your business growth.",
         title: "Mobile App Development",
         description: "Custom mobile applications for iOS and Android",
         image: MobileAppDevelopment,
@@ -255,6 +261,8 @@ export const ServiceData = [
     {
         id: 4,
         url: "/services/automation-and-qa-testing",
+        SEOTitle: "Automation & QA Testing | Reliable Software Quality Assurance | AWREX",
+        SEOdescription: "AWREX provides automation and QA testing services to ensure your software is bug-free, scalable, and performs flawlessly. Trust us to deliver high-quality solutions for your business.",
         title: "Automation & QA Testing",
         description: "Ensure the quality and reliability of your software",
         image: AutomationQATesting,
@@ -335,6 +343,8 @@ export const ServiceData = [
     {
         id: 5,
         url: "/services/systems-re-engineering",
+        SEOTitle: "Systems Re-Engineering | Modernize & Optimize Your IT Infrastructure | AWREX",
+        SEOdescription: "AWREX offers systems re-engineering services to modernize and optimize your IT infrastructure. We enhance performance, scalability, and efficiency for your business operations.",
         title: "Systems Re-Engineering",
         description: "Modernize and optimize your legacy systems",
         image: SystemsReEngineering,
@@ -415,6 +425,8 @@ export const ServiceData = [
     {
         id: 6,
         url: "/services/data-analytics",
+        SEOTitle: "Data Analytics | Actionable Insights for Your Business | AWREX",
+        SEOdescription: "AWREX delivers advanced data analytics solutions to help you make data-driven decisions. We transform raw data into actionable insights for business growth and efficiency.",
         title: "Data Analytics",
         description: "Turn your data into actionable insights",
         image: DataAnalytics,
@@ -495,6 +507,8 @@ export const ServiceData = [
     {
         id: 7,
         url: "/services/system-integration",
+        SEOTitle: "System Integration | Seamless Connectivity for Your Business | AWREX",
+        SEOdescription: "AWREX provides system integration services to connect your applications, data, and processes. We ensure seamless connectivity and improved operational efficiency.",
         title: "System Integration",
         description: "Seamlessly connect your systems and applications",
         image: SystemIntegration,
@@ -575,6 +589,8 @@ export const ServiceData = [
     {
         id: 8,
         url: "/services/ui-ux-design",
+        SEOTitle: "UI/UX Design | User-Centric Design Solutions | AWREX",
+        SEOdescription: "AWREX creates intuitive and engaging UI/UX designs to enhance user experience. We deliver user-centric solutions that drive engagement and satisfaction.",
         title: "UI/UX Design",
         description: "Create engaging and intuitive user experiences",
         image: UIUXDesign,
@@ -655,6 +671,8 @@ export const ServiceData = [
     {
         id: 9,
         url: "/services/infrastructure-services",
+        SEOTitle: "Infrastructure Services | Scalable & Secure IT Solutions | AWREX",
+        SEOdescription: "AWREX offers robust infrastructure services to support your business needs. We provide scalable, secure, and reliable IT solutions for seamless operations.",
         title: "Infrastructure Services",
         description: "Build and manage robust IT infrastructure",
         image: InfrastructureServices,
@@ -735,6 +753,8 @@ export const ServiceData = [
     {
         id: 10,
         url: "/services/devops",
+        SEOTitle: "DevOps | Streamline Development & Operations | AWREX",
+        SEOdescription: "AWREX delivers DevOps solutions to streamline your development and operations. We enhance collaboration, efficiency, and deployment speed for your business.",
         title: "DevOps",
         description: "Streamline your development and operations",
         image: DevOps,
@@ -815,6 +835,8 @@ export const ServiceData = [
     {
         id: 11,
         url: "/services/staff-augmentation",
+        SEOTitle: "Staff Augmentation | Flexible IT Talent Solutions | AWREX",
+        SEOdescription: "AWREX provides staff augmentation services to help you scale your team with skilled IT professionals. We offer flexible and cost-effective talent solutions.",
         title: "Staff Augmentation",
         description: "Scale your team with top talent",
         image: StaffAugmentation,

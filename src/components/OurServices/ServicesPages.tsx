@@ -16,7 +16,7 @@ const ServicesPages = () => {
 	console.log(currentService?.title)
 	return (
 		<>
-			<SEOAdjust title='About Us' description='About Us Page' />
+			<SEOAdjust title={`${currentService?.SEOTitle}`} description={`${currentService?.SEOdescription}`} />
 			<ServiceHero service={currentService} />
 			<FeaturesSection service={currentService} />
 			<BenefitsSection service={currentService} />

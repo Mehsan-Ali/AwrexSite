@@ -6,7 +6,11 @@ import SEOAdjust from '../components/SEOAdjust'
 const ContactPage = () => {
     return (
         <>
-            <SEOAdjust title='About Us' description='About Us Page' />
+            <SEOAdjust
+                title="Contact Us | Custom Software Development & IT Solutions | AWREX"
+                description="Get in touch with AWREX for custom software development, web and app development, system design, and DevOps solutions. Let's build innovative digital products together."
+            />
+
             <ContactHero />
             <ContactFrom />
             <FaqLandingPage />

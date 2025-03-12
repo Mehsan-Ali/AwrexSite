@@ -12,7 +12,10 @@ import Timeline from '../components/Timeline'
 const HomePage = () => {
     return (
         <>
-            <SEOAdjust title='About Us' description='About Us Page' />
+            <SEOAdjust
+                title="Custom Software Development & IT Solutions | AWREX"
+                description="AWREX specializes in custom software development, web and app development, system design, and DevOps. We build scalable, innovative digital solutions to transform your business."
+            />
             <GradientBackground />
             <CoreServices />
             <ProductsShowcase />
