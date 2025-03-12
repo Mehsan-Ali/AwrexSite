@@ -58,7 +58,7 @@ export default function GradientBackground() {
                 {/* Top tag/button */}
                 <a
                     href="#plans"
-                    className="mb-8 inline-flex items-center rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/20"
+                    className="mb-8 inline-flex items-center rounded-full bg-white/10 px-4 py-1.5 text-xs sm:text-sm font-medium text-white backdrop-blur-sm transition-colors hover:bg-white/20"
                 >
                     Flexible Plans for Custom Software Solutions
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -74,16 +74,16 @@ export default function GradientBackground() {
                 </div>
 
                 {/* Supporting text */}
-                <h2 className="mb-12 max-w-2xl text-lg text-gray-500">
+                <h2 className="mb-12 max-w-2xl text-base sm:text-lg text-gray-500">
                     Specializing in custom software development, system design, and DevOps, we deliver cutting-edge digital products that drive business growth and efficiency.
                 </h2>
 
                 {/* CTA buttons */}
-                <div className="flex flex-wrap items-center justify-center font-semibold gap-4">
-                    <button className="bg-zinc-800 cursor-pointer text-white hover:bg-zinc-700 px-4 py-3 rounded-lg">
+                <div className="flex flex-wrap items-center text-sm sm:text-base justify-center font-semibold gap-4">
+                    <button className="bg-zinc-800 cursor-pointer text-white hover:bg-zinc-700 px-4 py-2 sm:py-3 rounded-lg">
                         Start Your Software Project
                     </button>
-                    <button className="border-white cursor-pointer bg-white px-4 py-3 rounded-lg text-black hover:bg-white hover:text-black">
+                    <button className="border-white cursor-pointer bg-white px-4 py-2 sm:py-3 rounded-lg text-black hover:bg-white hover:text-black">
                         Book a Free Consultation
                     </button>
                 </div>
