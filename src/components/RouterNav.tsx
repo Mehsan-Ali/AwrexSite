@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import { NavBar } from './Navbar/Navbar'
 import HomePage from '../pages/HomePage'
 import AboutPage from '../pages/AboutPage'
@@ -24,7 +24,7 @@ const RouterNav = () => {
                 <Route path="/emerging-tech/:emerging" element={<EmergingPages />} />
                 <Route path="/consulation/:consulation" element={<ConsulationPage />} />
 
-                <Route path="*" element={<HomePage/>} />    
+                <Route path='*' element={<Navigate to="/" replace />} />    
             </Routes>
         </>
     )

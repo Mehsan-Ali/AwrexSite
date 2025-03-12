@@ -3,19 +3,19 @@ import { NavLink } from 'react-router-dom'
 
 const CallToAction = () => {
     return (
-        <section className="bg-gradient-to-r from-slate-400 to-slate-950 overflow-hidden py-20 md:py-32">
+        <section className="bg-gradient-to-r from-slate-100 to-slate-400 overflow-hidden py-20 md:py-32">
             <div className="container relative px-4 md:px-6">
                 <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
                     <div className="flex flex-col justify-center space-y-6">
                         <div className="space-y-4">
-                            <div className="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-3 py-1 text-sm font-medium text-white backdrop-blur-md">
+                            <div className="inline-flex items-center rounded-full border border-gray-400 bg-white/10 px-3 py-1 text-sm font-medium text-gray-700 backdrop-blur-md">
                                 <Sparkles className="mr-1 h-3.5 w-3.5" />
                                 <span>Let's Build Something Amazing</span>
                             </div>
-                            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl md:text-5xl">
+                            <h2 className="text-3xl lg:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-700 to-blue-100">
                                 Ready to Build Your Dream Software?
                             </h2>
-                            <p className="max-w-[600px] text-lg text-indigo-100 md:text-xl/relaxed">
+                            <p className="max-w-[600px] text-base sm:text-lg text-gray-500 md:text-xl/relaxed">
                                 Let's collaborate to create innovative solutions that drive your business forward. Our team is
                                 ready to turn your vision into reality.
                             </p>
@@ -23,7 +23,7 @@ const CallToAction = () => {
                     </div>
 
                     <div className="flex flex-col justify-center space-y-4">
-                        <div className="rounded-xl bg-white/10 p-8 backdrop-blur-md">
+                        <div className="rounded-xl bg-white/20 p-8 backdrop-blur-md">
                             <div className="grid grid-cols-1">
                                 <button className="w-full bg-white cursor-pointer text-gray-600 p-2 rounded-lg hover:bg-white/90">
                                     <NavLink to={`${'/contact-us'}`}>

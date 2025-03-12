@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='py-16 '>
                 <div className='flex sm:justify-around overflow-hidden justify-start flex-wrap mx-5 sm:mx-10 gap-y-10 gap-x-16'>
 
-                    <div className='text-gray-50 max-w-[25rem] flex-grow'>
+                    <div className='text-gray-50 max-w-[20rem] grow'>
                         <div className='flex items-center gap-3 py-5'>
                             <img
                                 alt="Awrex Solutions"
@@ -37,7 +37,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-3 text-gray-100 flex-grow'>
+                    <div className='flex flex-col gap-3 text-gray-100 grow'>
                         <h1 className='font-bold text-xl py-4 uppercase'>Services</h1>
                         <ul className='flex flex-col gap-5'>
                             {
@@ -55,8 +55,8 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className='flex flex-col gap-3 text-gray-100 flex-grow'>
-                        <h1 className='font-bold text-xl py-4 uppercase'>Links</h1>
+                    <div className='flex flex-col gap-3 text-gray-100 grow'>
+                        <h1 className='font-bold text-xl py-4 uppercase'>Company</h1>
                         <ul className='flex flex-col gap-5'>
                             {
                                 usefulLinks.map((item, index) => (
@@ -75,7 +75,7 @@ const Footer = () => {
 
                     {/* ------------------  Get In Touch ------------------ */}
 
-                    <div className='flex flex-col gap-3 text-gray-100 flex-grow'>
+                    <div className='flex flex-col gap-3 text-gray-100 grow'>
                         <h1 className='font-bold text-xl py-4 uppercase'>Get in Touch</h1>
                         <ul className='flex flex-col gap-5'>
                             {
