@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ChildLinks } from './NavLinks';
 import { Menu, X, ChevronLeft } from 'lucide-react';
-// import { throttle } from 'lodash'; // Import throttle for scroll optimization
+import AwrexLogo from "../../assets/Awrex2.jpg"
 
 export function NavBar() {
     const [openDropdown, setOpenDropdown] = useState<number | null>(null);
@@ -52,14 +52,15 @@ export function NavBar() {
         >
             <div className="container mx-auto flex justify-between items-center px-6 py-3 sm:py-0">
                 <Link to="/" className="flex items-center space-x-2">
-                    <motion.span
+                    {/* <motion.span
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
                         className="text-2xl font-bold text-gray-500 z-50"
                     >
                         Quinx
-                    </motion.span>
+                    </motion.span> */}
+                    <img src={AwrexLogo} alt="" className='size-8 sm:size-10 mix-blend-difference' />
                 </Link>
 
                 {/* Desktop Navigation */}
