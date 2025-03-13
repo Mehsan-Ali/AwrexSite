@@ -7,7 +7,7 @@ export default function CoreServices() {
         {
             icon: Monitor,
             title: "Interface Design",
-            description: "Creating intuitive and engaging user experiences through modern interface design principles.",
+            description: "Creating intuitive and engaging user experiences through modern interface design principles, focusing on usability, accessibility, and responsive design to enhance user satisfaction and drive engagement.",
             color: "#60A5FA", // Lighter blue for better contrast
             bgColor: "rgba(96, 165, 250, 0.1)", // Semi-transparent background
             borderColor: "rgba(96, 165, 250, 0.2)", // Subtle border
@@ -15,7 +15,7 @@ export default function CoreServices() {
         {
             icon: Code,
             title: "Software Development",
-            description: "Building robust and scalable software solutions tailored to your business needs.",
+            description: "Building robust and scalable software solutions tailored to your business needs, leveraging cutting-edge technologies, agile methodologies, and cloud-based infrastructure to ensure efficiency, flexibility, and long-term growth.",
             color: "#34D399", // Lighter green
             bgColor: "rgba(52, 211, 153, 0.1)",
             borderColor: "rgba(52, 211, 153, 0.2)",
@@ -23,7 +23,7 @@ export default function CoreServices() {
         {
             icon: Globe,
             title: "Web Development",
-            description: "Developing responsive and dynamic web applications using cutting-edge technologies.",
+            description: "Developing responsive and dynamic web applications that deliver seamless user experiences, fast performance, and cross-device compatibility, ensuring scalability, accessibility, and engagement for modern businesses.",
             color: "#F87171", // Lighter red
             bgColor: "rgba(248, 113, 113, 0.1)",
             borderColor: "rgba(248, 113, 113, 0.2)",
@@ -31,7 +31,7 @@ export default function CoreServices() {
         {
             icon: Shield,
             title: "IT Security",
-            description: "Protecting your digital assets with comprehensive security solutions and best practices.",
+            description: "Protecting your digital assets with comprehensive security solutions and industry best practices, ensuring data privacy, threat prevention, and compliance to safeguard your business from evolving cyber risks.",
             color: "#FBBF24", // Lighter yellow
             bgColor: "rgba(251, 191, 36, 0.1)",
             borderColor: "rgba(251, 191, 36, 0.2)",
