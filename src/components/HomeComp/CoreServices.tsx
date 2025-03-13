@@ -1,19 +1,22 @@
 "use client"
-import { Monitor, Code, Globe, Shield } from "lucide-react"
+import { Monitor, Code, Globe, Shield, Settings, RefreshCw } from "lucide-react"
 import { motion } from "framer-motion"
+import { NavLink } from "react-router-dom"
 
 export default function CoreServices() {
     const services = [
-        {
-            icon: Monitor,
-            title: "Interface Design",
-            description: "Creating intuitive and engaging user experiences through modern interface design principles, focusing on usability, accessibility, and responsive design to enhance user satisfaction and drive engagement.",
-            color: "#60A5FA", // Lighter blue for better contrast
-            bgColor: "rgba(96, 165, 250, 0.1)", // Semi-transparent background
-            borderColor: "rgba(96, 165, 250, 0.2)", // Subtle border
-        },
+        // {
+        //     icon: Monitor,
+        //     // url: "",
+        //     title: "Interface Design",
+        //     description: "Creating intuitive and engaging user experiences through modern interface design principles, focusing on usability, accessibility, and responsive design to enhance user satisfaction and drive engagement.",
+        //     color: "#60A5FA", // Lighter blue for better contrast
+        //     bgColor: "rgba(96, 165, 250, 0.1)", // Semi-transparent background
+        //     borderColor: "rgba(96, 165, 250, 0.2)", // Subtle border
+        // },
         {
             icon: Code,
+            url: "/services/software-development",
             title: "Software Development",
             description: "Building robust and scalable software solutions tailored to your business needs, leveraging cutting-edge technologies, agile methodologies, and cloud-based infrastructure to ensure efficiency, flexibility, and long-term growth.",
             color: "#34D399", // Lighter green
@@ -21,20 +24,31 @@ export default function CoreServices() {
             borderColor: "rgba(52, 211, 153, 0.2)",
         },
         {
+            icon: RefreshCw, // Assuming an appropriate icon for re-engineering
+            url: "/services/systems-re-engineering",
+            title: "Systems Re-Engineering",
+            description: "Revitalizing and modernizing your existing systems through comprehensive re-engineering, ensuring improved performance, scalability, and adaptability to meet evolving business demands and technological advancements.",
+            color: "#F59E0B", // Amber
+            bgColor: "rgba(245, 158, 11, 0.1)",
+            borderColor: "rgba(245, 158, 11, 0.2)",
+        },
+        {
             icon: Globe,
-            title: "Web Development",
+            url: "/services/web-development-maintenance",
+            title: "Web Development & Maintenance",
             description: "Developing responsive and dynamic web applications that deliver seamless user experiences, fast performance, and cross-device compatibility, ensuring scalability, accessibility, and engagement for modern businesses.",
             color: "#F87171", // Lighter red
             bgColor: "rgba(248, 113, 113, 0.1)",
             borderColor: "rgba(248, 113, 113, 0.2)",
         },
         {
-            icon: Shield,
-            title: "IT Security",
-            description: "Protecting your digital assets with comprehensive security solutions and industry best practices, ensuring data privacy, threat prevention, and compliance to safeguard your business from evolving cyber risks.",
-            color: "#FBBF24", // Lighter yellow
-            bgColor: "rgba(251, 191, 36, 0.1)",
-            borderColor: "rgba(251, 191, 36, 0.2)",
+            icon: Settings,
+            url: "/consulation/managed-it-services",
+            title: "Managed IT Services",
+            description: "Providing end-to-end IT management and support to optimize your business operations, enhance productivity, and ensure seamless technology performance through proactive monitoring, maintenance, and expert solutions.",
+            color: "#3B82F6", // Lighter blue
+            bgColor: "rgba(59, 130, 246, 0.1)",
+            borderColor: "rgba(59, 130, 246, 0.2)",
         },
     ]
 
@@ -93,25 +107,27 @@ export default function CoreServices() {
                                 boxShadow: `0 10px 25px rgba(0, 0, 0, 0.2)`,
                                 transition: { duration: 0.2 },
                             }}
-                            className=" border-gray-300 transition-all duration-300 border-b"
+                            className=" border-gray-300 cursor-pointer transition-all duration-300 border-b"
                         >
-                            <div className="h-full rounded-2xl p-8 flex flex-col">
-                                {/* Icon Container */}
-                                <div className="mb-6">
-                                    <div
-                                        className="w-14 h-14 rounded-xl flex items-center justify-center"
-                                        style={{ backgroundColor: service.bgColor }}
-                                    >
-                                        <service.icon className="w-6 h-6" style={{ color: service.color }} />
+                            <NavLink to={service.url} className="flex flex-col h-full">
+                                <div className="h-full rounded-2xl p-8 flex flex-col">
+                                    {/* Icon Container */}
+                                    <div className="mb-6">
+                                        <div
+                                            className="w-14 h-14 rounded-xl flex items-center justify-center"
+                                            style={{ backgroundColor: service.bgColor }}
+                                        >
+                                            <service.icon className="w-6 h-6" style={{ color: service.color }} />
+                                        </div>
                                     </div>
-                                </div>
 
-                                {/* Content */}
-                                <h3 className="text-xl font-semibold mb-3 text-gray-600">
-                                    {service.title}
-                                </h3>
-                                <p className="text-gray-400 font-light leading-relaxed">{service.description}</p>
-                            </div>
+                                    {/* Content */}
+                                    <h3 className="text-xl font-semibold mb-3 text-gray-600">
+                                        {service.title}
+                                    </h3>
+                                    <p className="text-gray-400 font-light leading-relaxed">{service.description}</p>
+                                </div>
+                            </NavLink>
                         </motion.div>
                     ))}
                 </motion.div>
