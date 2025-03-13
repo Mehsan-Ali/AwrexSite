@@ -24,7 +24,7 @@ export default function CoreServices() {
             borderColor: "rgba(52, 211, 153, 0.2)",
         },
         {
-            icon: RefreshCw, // Assuming an appropriate icon for re-engineering
+            icon: RefreshCw,
             url: "/services/systems-re-engineering",
             title: "Systems Re-Engineering",
             description: "Revitalizing and modernizing your existing systems through comprehensive re-engineering, ensuring improved performance, scalability, and adaptability to meet evolving business demands and technological advancements.",
@@ -84,7 +84,7 @@ export default function CoreServices() {
                     className="text-center mb-16"
                 >
                     {/* <h2 className="text-4xl md:text-5xl lg:text-5xl font-semibold text-gray-600 mb-6"> */}
-                    <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-gray-600 ">
+                    <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight bg-gradient-to-r from-gray-950 to-white bg-clip-text text-transparent ">
                         Our Core IT Services
                     </h2>
                     <p className="text-base md:text-lg text-gray-600 max-w-2xl font-light tracking-wider mx-auto">

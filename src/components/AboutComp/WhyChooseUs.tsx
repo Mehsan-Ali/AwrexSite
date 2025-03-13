@@ -45,8 +45,8 @@ export default function WhyChooseUs() {
                     }}
                     transition={{ duration: 1 }}
                 >
-                    <h2 className="text-2xl sm:text-4xl font-bold text-center bg-gradient-to-r from-gray-900 to-blue-100 text-transparent capitalize bg-clip-text py-2">
-                        <span className="bg-gradient-to-r from-slate-900 to-emerald-900 text-white py-0.5"> Why  </span>Choose Us
+                    <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight bg-gradient-to-r from-gray-950 to-blue-100 bg-clip-text text-transparent">
+                        Why Choose Us
                     </h2>
                     <h4 className="text-sm text-center tracking-widest sm:text-base">
                         We combine technical expertise with business acumen to deliver solutions that drive real results.
