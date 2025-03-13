@@ -6,29 +6,28 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 interface Testimonial {
     name: string;
     role: string;
-    image: string;
     quote: string;
 }
 
 const testimonials: Testimonial[] = [
     {
-        name: "Sarah Johnson",
-        role: "Product Manager",
-        image: "/placeholder.svg?height=100&width=100",
+        name: "Robert Gill",
+        role: "Vice President",
+        // image: "/placeholder.svg?height=100&width=100",
         quote:
-            "This product has completely transformed how we work. The efficiency gains are remarkable, and the user interface is intuitive.",
+            "A competitively price and professional service.",
     },
     {
-        name: "Michael Chen",
-        role: "Software Engineer",
-        image: "/placeholder.svg?height=100&width=100",
-        quote: "The technical capabilities are impressive. It's been a game-changer for our development workflow.",
+        name: "Dennis King",
+        role: "CEO",
+        // image: "/placeholder.svg?height=100&width=100",
+        quote: "Working with Awrex was a game-changer for our buisness. Their expertise im mobile application development helped us reach new heights in user engagement and revenue.",
     },
     {
-        name: "Emma Davis",
-        role: "Marketing Director",
-        image: "/placeholder.svg?height=100&width=100",
-        quote: "The analytics features have provided invaluable insights for our marketing campaigns. Highly recommended!",
+        name: "Juli Smith",
+        role: "Manager",
+        // image: "/placeholder.svg?height=100&width=100",
+        quote: "We would highly recommend Awrex to anyone looking for a reliable and professional software development partner.",
     },
 ];
 
@@ -60,11 +59,11 @@ const TestimonialsCarousel: React.FC = () => {
                                 <div className="p-6 text-center space-y-4 bg-white">
                                     <Quote className="h-8 w-8 text-gray-400 mx-auto" />
                                     <p className="text-lg text-gray-600">{testimonial.quote}</p>
-                                    <img
+                                    {/* <img
                                         src={testimonial.image}
                                         alt={testimonial.name}
                                         className="h-16 w-16 rounded-full mx-auto"
-                                    />
+                                    /> */}
                                     <h3 className="font-semibold text-lg">{testimonial.name}</h3>
                                     <p className="text-sm text-gray-500">{testimonial.role}</p>
                                 </div>
