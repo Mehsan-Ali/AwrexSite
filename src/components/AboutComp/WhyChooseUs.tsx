@@ -2,28 +2,55 @@ import { Clock, Cpu, Shield, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function WhyChooseUs() {
+    // const benefits = [
+    
+    //     {
+    //         title: "Custom Solutions",
+    //         description: "Tailored software that perfectly fits your unique business needs",
+    //         icon: <Cpu color="#00524c" className="size-8 sm:size-10" />,
+    //         axis: -50,
+    //     },
+    //     {
+    //         title: "Agile Development",
+    //         description: "Flexible, iterative approach that adapts to changing requirements",
+    //         icon: <Zap color="#00524c" className="size-8 sm:size-10" />,
+    //         axis: 50,
+    //     },
+    //     {
+    //         title: "Dedicated Support",
+    //         description: "Ongoing maintenance and support to ensure your software runs smoothly",
+    //         icon: <Shield color="#00524c" className="size-8 sm:size-10" />,
+    //         axis: -50,
+    //     },
+    //     {
+    //         title: "Cutting-Edge Tech",
+    //         description: "Latest technologies and frameworks to future-proof your investment.",
+    //         icon: <Clock color="#00524c" className="size-8 sm:size-10" />,
+    //         axis: 50,
+    //     },
+    // ];
     const benefits = [
         {
-            title: "Custom Solutions",
-            description: "Tailored software that perfectly fits your unique business needs",
+            title: "Custom Software Solutions",
+            description: "We deliver tailored software solutions designed to meet your unique business requirements, ensuring maximum efficiency and scalability.",
             icon: <Cpu color="#00524c" className="size-8 sm:size-10" />,
             axis: -50,
         },
         {
-            title: "Agile Development",
-            description: "Flexible, iterative approach that adapts to changing requirements",
+            title: "Agile Software Development",
+            description: "Our agile development process ensures flexibility and adaptability, allowing us to respond quickly to changing business needs and deliver high-quality results.",
             icon: <Zap color="#00524c" className="size-8 sm:size-10" />,
             axis: 50,
         },
         {
-            title: "Dedicated Support",
-            description: "Ongoing maintenance and support to ensure your software runs smoothly",
+            title: "Dedicated Software Support",
+            description: "We provide ongoing maintenance and dedicated support to ensure your software operates seamlessly, minimizing downtime and maximizing productivity.",
             icon: <Shield color="#00524c" className="size-8 sm:size-10" />,
             axis: -50,
         },
         {
-            title: "Cutting-Edge Tech",
-            description: "Latest technologies and frameworks to future-proof your investment.",
+            title: "Cutting-Edge Technology",
+            description: "Leverage the latest technologies and frameworks to future-proof your software investment and stay ahead of the competition.",
             icon: <Clock color="#00524c" className="size-8 sm:size-10" />,
             axis: 50,
         },
