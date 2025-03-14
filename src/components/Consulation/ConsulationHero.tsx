@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const ConsulationHero = ({ consulation }: { consulation: any }) => {
     return (
         <>
-            <div className="px-14 py-20 md:py-0 text-black min-h-screen grid gap-8 lg:grid-cols-2 lg:gap-16">
+            <div className="sm:px-14 px-5 py-20 md:py-0 text-black min-h-screen grid gap-8 lg:grid-cols-2 lg:gap-16">
                 <div className="flex flex-col justify-center space-y-2">
                     <span className="flex items-center gap-2 bg-slate-600 w-fit px-3 py-1 rounded-full">
                         <Badge className="w-4 h-4 text-white" />
