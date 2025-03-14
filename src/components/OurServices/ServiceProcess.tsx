@@ -4,7 +4,7 @@ export default function ProcessSection() {
     return (
         <section className="py-24 md:py-32 relative overflow-hidden">
             {/* Background elements */}
-            <div className="absolute inset-0 bg-slate-50 dark:bg-slate-950 -z-10"></div>
+            <div className="absolute inset-0 bg-slate-50 -z-10"></div>
             <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(120,119,198,0.1),transparent_40%)] -z-10"></div>
             <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_40%)] -z-10"></div>
 
@@ -57,7 +57,7 @@ export default function ProcessSection() {
                                 {/* Circle connector for desktop */}
                                 <div className="absolute left-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border-4 border-white bg-[#1b1b1b] hidden lg:block"></div>
 
-                                <div className="border-none bg-gradient-to-br from-white to-slate-100 dark:from-slate-900 dark:to-slate-800 shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
+                                <div className="border-none bg-gradient-to-br from-white to-slate-100 shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
                                     <ul className="space-y-4">
                                         <li className="flex items-center gap-3">
                                             <div className="h-8 w-8 rounded-full bg-[#1b1b1b]/10 flex items-center justify-center flex-shrink-0">
@@ -107,7 +107,7 @@ export default function ProcessSection() {
                                 {/* Circle connector for desktop */}
                                 <div className="absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border-4 border-white bg-[#1b1b1b] hidden lg:block"></div>
 
-                                <div className="border-none bg-gradient-to-br from-white to-slate-100 dark:from-slate-900 dark:to-slate-800 shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
+                                <div className="border-none bg-gradient-to-br from-white to-slate-100 shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
                                     <ul className="space-y-4">
                                         <li className="flex items-center gap-3">
                                             <div className="h-8 w-8 rounded-full bg-[#1b1b1b]/10 flex items-center justify-center flex-shrink-0">
@@ -156,7 +156,7 @@ export default function ProcessSection() {
                                 {/* Circle connector for desktop */}
                                 <div className="absolute left-0 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border-4 border-white bg-[#1b1b1b] hidden lg:block"></div>
 
-                                <div className="border-none bg-gradient-to-br from-white to-slate-100 dark:from-slate-900 dark:to-slate-800 shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
+                                <div className="border-none bg-gradient-to-br from-white to-slate-100  shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
                                     <ul className="space-y-4">
                                         <li className="flex items-center gap-3">
                                             <div className="h-8 w-8 rounded-full bg-[#1b1b1b]/10 flex items-center justify-center flex-shrink-0">
@@ -205,7 +205,7 @@ export default function ProcessSection() {
                                 {/* Circle connector for desktop */}
                                 <div className="absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border-4 border-white bg-[#1b1b1b] hidden lg:block"></div>
 
-                                <div className="border-none bg-gradient-to-br from-white to-slate-100 dark:from-slate-900 dark:to-slate-800 shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
+                                <div className="border-none bg-gradient-to-br from-white to-slate-100 shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] rounded-2xl p-6 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.2)] transition-all duration-500">
                                     <ul className="space-y-4">
                                         <li className="flex items-center gap-3">
                                             <div className="h-8 w-8 rounded-full bg-[#1b1b1b]/10 flex items-center justify-center flex-shrink-0">
