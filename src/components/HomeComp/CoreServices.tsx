@@ -125,7 +125,7 @@ export default function CoreServices() {
                                     <h3 className="text-xl font-semibold mb-3 text-gray-600">
                                         {service.title}
                                     </h3>
-                                    <p className="text-gray-400 font-light leading-relaxed">{service.description}</p>
+                                    <p className="text-gray-400 font-light text-sm sm:text-base leading-relaxed">{service.description}</p>
                                 </div>
                             </NavLink>
                         </motion.div>

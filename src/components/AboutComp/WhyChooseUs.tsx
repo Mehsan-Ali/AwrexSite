@@ -2,33 +2,6 @@ import { Clock, Cpu, Shield, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function WhyChooseUs() {
-    // const benefits = [
-    
-    //     {
-    //         title: "Custom Solutions",
-    //         description: "Tailored software that perfectly fits your unique business needs",
-    //         icon: <Cpu color="#00524c" className="size-8 sm:size-10" />,
-    //         axis: -50,
-    //     },
-    //     {
-    //         title: "Agile Development",
-    //         description: "Flexible, iterative approach that adapts to changing requirements",
-    //         icon: <Zap color="#00524c" className="size-8 sm:size-10" />,
-    //         axis: 50,
-    //     },
-    //     {
-    //         title: "Dedicated Support",
-    //         description: "Ongoing maintenance and support to ensure your software runs smoothly",
-    //         icon: <Shield color="#00524c" className="size-8 sm:size-10" />,
-    //         axis: -50,
-    //     },
-    //     {
-    //         title: "Cutting-Edge Tech",
-    //         description: "Latest technologies and frameworks to future-proof your investment.",
-    //         icon: <Clock color="#00524c" className="size-8 sm:size-10" />,
-    //         axis: 50,
-    //     },
-    // ];
     const benefits = [
         {
             title: "Custom Software Solutions",

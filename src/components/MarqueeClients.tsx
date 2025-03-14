@@ -21,7 +21,7 @@ const MarqueeClients: React.FC = () => {
     ];
 
     return (
-        <div className="p-10">
+        <div className="py-10">
             <div className="flex text-center items-center flex-col">
                 <h2 className="text-3xl lg:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-blue-100">Our Clients</h2>
                 <h3 className="text-lg text-slate-500 leading-relaxed max-w-2xl mt-4">
