@@ -58,7 +58,7 @@ const TestimonialsCarousel: React.FC = () => {
                             <div key={index} className="flex-none w-full">
                                 <div className="p-6 text-center space-y-4 bg-white">
                                     <Quote className="h-8 w-8 text-gray-400 mx-auto" />
-                                    <p className="text-lg text-gray-600">{testimonial.quote}</p>
+                                    <p className="text-base sm:text-lg text-gray-600">{testimonial.quote}</p>
                                     {/* <img
                                         src={testimonial.image}
                                         alt={testimonial.name}
