@@ -3,13 +3,16 @@ import WhyChooseUs from '../components/AboutComp/WhyChooseUs'
 import ModernAboutSection from '../components/AboutSec'
 import CoreServices from '../components/HomeComp/CoreServices'
 import GradientBackground from '../components/HomeComp/HeroSection'
+import OurClient from '../components/HomeComp/OurClients'
 import ProductsShowcase from '../components/HomeComp/Products'
+import MarqueeClients from '../components/MarqueeClients'
 import Marquee from '../components/MarqueText'
 import SEOAdjust from '../components/SEOAdjust'
 import TestimonialsCarousel from '../components/Testimonials'
 import Timeline from '../components/Timeline'
 
 const HomePage = () => {
+    
     return (
         <>
             <SEOAdjust
@@ -24,6 +27,7 @@ const HomePage = () => {
             <Marquee />
             <Timeline />
             <TestimonialsCarousel />
+            <MarqueeClients/>
             <CallToAction />
             {/* <GetInTouch/> */}
         </>
