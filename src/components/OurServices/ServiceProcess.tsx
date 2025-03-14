@@ -15,7 +15,7 @@ export default function ProcessSection() {
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-[#1b1b1b]/10 rounded-full -z-10"></div>
 
             <div className="container mx-auto relative z-10">
-                <div className="mx-auto max-w-3xl text-center mb-20">
+                <div className="mx-auto max-w-3xl text-center mb-20 px-3">
                     <div className="inline-flex items-center justify-center p-1 px-3 mb-6 border border-[#1b1b1b]/20 rounded-full bg-[#1b1b1b]/5 text-[#1b1b1b] text-sm font-medium">
                         Our Process
                     </div>
@@ -27,7 +27,7 @@ export default function ProcessSection() {
                     </p>
                 </div>
 
-                <div className="relative">
+                <div className="relative px-5 sm:px-0">
                     {/* Central line */}
                     <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#1b1b1b]/40 via-[#1b1b1b]/20 to-[#1b1b1b]/40 hidden lg:block"></div>
 

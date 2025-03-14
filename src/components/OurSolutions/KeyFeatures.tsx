@@ -8,7 +8,7 @@ export default function FeaturesSection({ solution }: { solution: any }) {
         <section className="w-full py-16 bg-gradient-to-b from-background via-background/90 to-background relative overflow-hidden">
 
             <div className="px-4 md:px-6 relative z-10">
-                <div className="mx-auto flex max-w-[58rem] flex-col items-center justify-center gap-4 text-center mb-12">
+                <div className="mx-auto flex flex-col items-center justify-center gap-4 text-center mb-12">
                     <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">What We Offer</div>
                     <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                         Key <span className="text-primary">Features</span>

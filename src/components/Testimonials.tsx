@@ -44,18 +44,18 @@ const TestimonialsCarousel: React.FC = () => {
     }, [emblaApi]);
 
     return (
-        <div className="container mx-auto px-4 md:px-6 pt-12 md:pt-24 lg:pt-32 pb-12  dark:bg-gray-900">
+        <div className="container mx-auto px-4 md:px-6 pt-12 md:pt-24 lg:pt-32 pb-12">
             <div className="text-center">
                 <h2 className="text-3xl lg:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-blue-100">Testimonials That Speak Volumes</h2>
                 <p className="text-lg text-slate-500 leading-relaxed mt-4">
                     Hear what our clients have to say about their experience working with us.
                 </p>
             </div>
-            <section className="w-full max-w-4xl mx-auto px-4 py-12 relative">
+            <section className="w-full max-w-5xl mx-auto px-4 py-12 relative">
                 <div className="overflow-hidden" ref={emblaRef}>
                     <div className="flex">
                         {testimonials.map((testimonial, index) => (
-                            <div key={index} className="flex-none w-full px-4">
+                            <div key={index} className="flex-none w-full">
                                 <div className="p-6 text-center space-y-4 bg-white">
                                     <Quote className="h-8 w-8 text-gray-400 mx-auto" />
                                     <p className="text-lg text-gray-600">{testimonial.quote}</p>
@@ -64,7 +64,7 @@ const TestimonialsCarousel: React.FC = () => {
                                         alt={testimonial.name}
                                         className="h-16 w-16 rounded-full mx-auto"
                                     /> */}
-                                    <h3 className="font-semibold text-lg">{testimonial.name}</h3>
+                                    <h3 className="font-semibold text-sm sm:text-lg">{testimonial.name}</h3>
                                     <p className="text-sm text-gray-500">{testimonial.role}</p>
                                 </div>
                             </div>
