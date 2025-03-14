@@ -44,14 +44,14 @@ const TestimonialsCarousel: React.FC = () => {
     }, [emblaApi]);
 
     return (
-        <div className="container mx-auto px-4 md:px-6 pt-12 md:pt-24 lg:pt-32 pb-12">
+        <div className="mx-auto px-4 md:px-6 pt-12 md:pt-24 lg:pt-32 sm:pb-10">
             <div className="text-center">
                 <h2 className="text-3xl lg:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-blue-100">Testimonials That Speak Volumes</h2>
                 <p className="text-lg text-slate-500 leading-relaxed mt-4">
                     Hear what our clients have to say about their experience working with us.
                 </p>
             </div>
-            <section className="w-full max-w-5xl mx-auto px-4 py-12 relative">
+            <section className="w-full max-w-5xl mx-auto px-4 py-5 sm:py-12 relative">
                 <div className="overflow-hidden" ref={emblaRef}>
                     <div className="flex">
                         {testimonials.map((testimonial, index) => (
@@ -83,7 +83,7 @@ const TestimonialsCarousel: React.FC = () => {
                 >
                     <ChevronRight className="h-6 w-6 text-gray-700" />
                 </button>
-                <div className="flex justify-center gap-2 mt-4">
+                <div className="flex justify-center gap-2">
                     {testimonials.map((_, index) => (
                         <button
                             key={index}
