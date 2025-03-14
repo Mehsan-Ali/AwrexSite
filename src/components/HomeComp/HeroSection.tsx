@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { NavLink } from "react-router-dom";
 
 export default function GradientBackground() {
     return (
@@ -66,7 +67,7 @@ export default function GradientBackground() {
 
                 {/* Main heading */}
                 <div className="mb-6 text-center font-sans text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-                    We Build Scalable 
+                    We Build Scalable
                     <br />
                     <h1 className="bg-gradient-to-b text-transparent bg-clip-text from-gray-100 to-transparent">
                         Web & App Development Solutions
@@ -81,10 +82,14 @@ export default function GradientBackground() {
                 {/* CTA buttons */}
                 <div className="flex flex-wrap items-center text-sm sm:text-base justify-center font-semibold gap-4">
                     <button className="bg-zinc-800 cursor-pointer text-white hover:bg-zinc-700 px-4 py-2 sm:py-3 rounded-lg">
-                        Start Your Software Project
+                        <NavLink to={'/contact-us'}>
+                            Start Your Software Project
+                        </NavLink>
                     </button>
                     <button className="border-white cursor-pointer bg-white px-4 py-2 sm:py-3 rounded-lg text-black hover:bg-white hover:text-black">
-                        Book a Free Consultation
+                        <NavLink to={'/schedule'}>
+                            Book a Free Consultation
+                        </NavLink>
                     </button>
                 </div>
             </div>

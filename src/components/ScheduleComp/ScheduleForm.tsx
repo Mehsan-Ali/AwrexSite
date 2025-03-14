@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 const ScheduleForm = () => {
     const [submitted, setSubmitted] = useState(false);
@@ -32,11 +33,24 @@ const ScheduleForm = () => {
     //     setFormData((prev) => ({ ...prev, [id]: checked }));
     // };
 
-    const submitForm = (e: React.FormEvent) => {
+    const submitForm = async (e: React.FormEvent) => {
         e.preventDefault();
-        console.log("Form submitted:", formData);
-        setSubmitted(true);
-        window.scrollTo(0, 0);
+        try {
+            const response = await emailjs.send(
+                "service_16tomps", // Replace with your EmailJS Service ID
+                "template_vb3aver", // Replace with your EmailJS Template ID
+                formData, // Form data to be passed to the template
+                "_DyPq8PQR6SEE-Xf0" // Replace with your EmailJS User ID
+            );
+            // Handle success
+            console.log("Email sent successfully!", response.status, response.text);
+            setSubmitted(true);
+            window.scrollTo(0, 0);
+            alert("Consultation scheduled successfully!");
+        } catch (error) {
+            console.error("Failed to send email:", error);
+            alert("Failed to schedule consultation. Please try again.");
+        }
     };
 
     return (
