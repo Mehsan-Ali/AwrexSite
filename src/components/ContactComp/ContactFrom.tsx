@@ -18,7 +18,7 @@ const ContactFrom = () => {
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-10 sm:px-10">
 
                 {/* <section className="my-8 max-w-3xl mx-auto"> */}
-                <section className="my-8 rounded-xl bg-white p-6 shadow-lg dark:bg-gray-800 md:p-8">
+                <section className="my-8 rounded-xl bg-white p-6 shadow-lg md:p-8">
                     <h5 className='text-2xl font-semibold pb-5'>Send us a message</h5>
                     <form action="">
 
@@ -104,17 +104,17 @@ const ContactFrom = () => {
                     <div className="space-y-6">
                         {
                             ContactInformation.map((data, index) => (
-                                <div className="flex items-center shadow-lg gap-4 border-b border-gray-200 dark:border-gray-700 space-y-8 py-5 bg-gray-100 px-5 rounded-lg" key={index}>
-                                    <div className="rounded-full bg-slate-300/50 my-auto text-gray-900 p-3 dark:bg-indigo-900/50 dark:text-indigo-400">
+                                <div className="flex items-center shadow-lg gap-4 border-b border-gray-200 space-y-8 py-5 bg-gray-100 px-5 rounded-lg" key={index}>
+                                    <div className="rounded-full bg-slate-300/50 my-auto text-gray-900 p-3">
                                         <data.icon className="size-10" strokeWidth={1.1}/>
                                     </div>
                                     <div>
                                         <h3 className="text-lg font-medium">{data.title}</h3>
-                                        <p className="mt-1 text-gray-600 dark:text-gray-400">
+                                        <p className="mt-1 text-gray-600 ">
                                             {data.description}
                                             <br />
                                         </p>
-                                        <p className="mt-1 text-sm text-gray-500 dark:text-gray-500">
+                                        <p className="mt-1 text-sm text-gray-500">
                                             {data.para}
                                         </p>
                                     </div>
