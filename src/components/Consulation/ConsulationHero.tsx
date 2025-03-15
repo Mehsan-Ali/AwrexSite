@@ -40,7 +40,8 @@ const ConsulationHero = ({ consulation }: { consulation: any }) => {
                         <div className="absolute -bottom-16 -left-16 h-64 w-64 rounded-full bg-blue-700/20 blur-3xl" />
                         <img
                             src={consulation.image}
-                            alt="Software Development"
+                            alt={consulation.title}
+                            title={consulation.title}
                             width={600}
                             height={600}
                             className="relative z-10 rounded-2xl object-cover w-full h-full"
