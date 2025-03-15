@@ -61,7 +61,7 @@ const OurClient: React.FC<MarqueeProps> = ({ logos, speed = 20, logoHeight = 50,
                 }
                 `}
             </style>
-            <div className="marquee-container w-4xl">
+            <div className="marquee-container w-5xl">
                 {/* Render the duplicated logos */}
                 {duplicatedLogos.map((logo, index) => (
                     <img
