@@ -45,7 +45,6 @@ const ConsulationHero = ({ consulation }: { consulation: any }) => {
                             width={500}
                             height={500}
                             className="relative z-10 rounded-2xl object-cover w-full h-full"
-                            loading='lazy'
                         />
                     </div>
                 </div>

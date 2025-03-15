@@ -12,7 +12,7 @@ import FleetManagementImage from "../../assets/Solutions/fleet.png"
 import KioskSoftwareImage from "../../assets/Solutions/kiosk.png"
 import CMSImage from "../../assets/Solutions/cms.png"
 import WebPortalsImage from "../../assets/Solutions/webPortal.png"
-import AssetManagementImage from "../../assets/Solutions/asset.png"
+import AssetManagementImage from "../../assets/Solutions/asset.webp"
 
 export const SolutionsData = [
     {
