@@ -5,6 +5,7 @@ import Timeline from '../components/Timeline'
 import TestimonialsCarousel from '../components/Testimonials'
 import CallToAction from '../components/AboutComp/CallToAction'
 import SEOAdjust from '../components/SEOAdjust'
+import MarqueeClients from '../components/MarqueeClients'
 
 const AboutPage = () => {
     return (
@@ -20,6 +21,7 @@ const AboutPage = () => {
             <WhyChooseUs />
             <Timeline />
             <TestimonialsCarousel />
+            <MarqueeClients/>
             <CallToAction />
         </>
     )

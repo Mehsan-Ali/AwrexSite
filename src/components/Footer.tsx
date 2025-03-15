@@ -92,9 +92,9 @@ const Footer = () => {
             </div>
 
             <div className='text-white font-semibold text-center py-5 sm:py-5'>
-                <a href={'https://sphere.com.pk'}>
+                {/* <a href={'https://sphere.com.pk'}> */}
                     Copyright © {currentYear} Awrex. All Right Reserved
-                </a>
+                {/* </a> */}
             </div>
         </div>
     )
@@ -143,7 +143,7 @@ const usefulLinks = [
         id: 2,
         title: "Contact Us",
         icon: <MoveRight />,
-        path: '/contact'
+        path: '/contact-us'
     },
     {
         id: 3,

@@ -3,12 +3,13 @@ import { NavLink } from 'react-router-dom'
 
 const CallToAction = () => {
     return (
-        <section className="bg-gradient-to-r from-slate-100 to-slate-400 overflow-hidden py-20 md:py-32">
+        // <section className="bg-gradient-to-r from-slate-100 to-slate-400 overflow-hidden py-20 md:py-32">
+        <section className="bg-gradient-to-r from-[#01151f] via-black to-[#01151f] overflow-hidden py-20 md:py-32">
             <div className="container relative px-4 md:px-6">
                 <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
                     <div className="flex flex-col justify-center space-y-6">
                         <div className="space-y-4">
-                            <div className="inline-flex items-center rounded-full border border-gray-400 bg-white/10 px-3 py-1 text-sm font-medium text-gray-700 backdrop-blur-md">
+                            <div className="inline-flex items-center rounded-full border border-gray-400 bg-white/90 px-3 py-1 text-sm font-medium text-gray-700 backdrop-blur-md">
                                 <Sparkles className="mr-1 h-3.5 w-3.5" />
                                 <span>Let's Build Something Amazing</span>
                             </div>
