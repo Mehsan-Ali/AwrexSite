@@ -11,8 +11,8 @@ export default function ProcessSection() {
             {/* Decorative elements */}
             <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-[#1b1b1b]/5 blur-3xl -z-10"></div>
             <div className="absolute bottom-20 right-10 w-64 h-64 rounded-full bg-[#1b1b1b]/5 blur-3xl -z-10"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border border-[#1b1b1b]/10 rounded-full -z-10"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-[#1b1b1b]/10 rounded-full -z-10"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border border-[#c5c5c5a4] rounded-full -z-10"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-[#c5c5c588] rounded-full -z-10"></div>
 
             <div className="container mx-auto relative z-10">
                 <div className="mx-auto max-w-3xl text-center mb-20 px-3">
