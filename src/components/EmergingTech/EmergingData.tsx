@@ -1,11 +1,11 @@
 import { BarChart, Check, Code, Globe, Lightbulb, Rocket, Shield, Zap } from "lucide-react";
 import DataScienceImage from "../../assets/Emerging/data.webp";
 import AIImage from "../../assets/Emerging/ai.webp";
-import MachineLearningImage from "../../assets/Emerging/machineLearning.webp";
+import MachineLearningImage from "../../assets/Emerging/machineLearning.png";
 import MetaverseImage from "../../assets/Emerging/metaverse.webp";
-import RPAImage from "../../assets/Emerging/robotic.webp";
+import RPAImage from "../../assets/Emerging/robotic.png";
 import BigDataImage from "../../assets/Emerging/bigData.webp";
-import ComputerVisionImage from "../../assets/Emerging/computerVision.webp";
+import ComputerVisionImage from "../../assets/Emerging/computerVision.png";
 
 export const EmergingData = [
     // Previous services here...
