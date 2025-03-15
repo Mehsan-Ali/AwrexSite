@@ -43,7 +43,8 @@ const ConsulationHero = ({ consulation }: { consulation: any }) => {
                             alt="Software Development"
                             width={600}
                             height={600}
-                            className="relative z-10 rounded-2xl object-cover"
+                            className="relative z-10 rounded-2xl object-cover w-full h-full"
+                            loading='lazy'
                         />
                     </div>
                 </div>
