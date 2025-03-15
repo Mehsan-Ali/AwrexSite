@@ -64,14 +64,64 @@ const FaqLandingPage = () => {
 export default FaqLandingPage
 
 const faqData = [
-    { id: 1, question: "What is SOIFS?", answer: "The Sustainable Organic Integrated Farming System (SOIFS) is an innovative farming model developed by Al Ikhwan Farms (AIF). It integrates aquaculture, agriculture, livestock farming, and renewable energy production to create a self-sustaining ecosystem." },
-    { id: 2, question: "How can I get involved?", answer: "You can get involved with SOIFS in various ways! Whether you're a farmer, investor, or student, we welcome your participation." },
-    { id: 3, question: "What are the benefits of integrated farming?", answer: "Integrated farming combines different agricultural systems, ensuring mutual support between them. It reduces waste, improves efficiency, and enhances profitability." },
-    { id: 4, question: "How does SOIFS promote sustainability?", answer: "SOIFS promotes sustainability by reducing reliance on synthetic inputs, reusing resources like water and organic waste, and enhancing biodiversity." },
-    { id: 5, question: "What types of crops, livestock, and aquaculture does SOIFS support?", answer: "SOIFS supports a wide range of crops, including vegetables, fruits, and grains. Livestock includes dairy and fattening cattle and goats, and aquaculture includes fish species raised in our ponds." },
-    { id: 6, question: "How do biogas systems work in SOIFS?", answer: "Biogas systems in SOIFS convert organic waste into renewable energy. These systems produce biogas to power farm operations and bio-slurry, a nutrient-rich fertilizer." },
-    { id: 7, question: "What role does water recycling play in SOIFS?", answer: "Water recycling is a cornerstone of SOIFS. We treat and reuse water from fishponds and other farm operations for irrigation and aquaculture." },
-    { id: 8, question: "How does SOIFS help smallholder farmers?", answer: "SOIFS empowers smallholder farmers by providing sustainable farming models that reduce input costs and improve yields." },
-    { id: 9, question: "What products does SOIFS produce?", answer: "SOIFS produces a variety of organic and sustainable products, including fish, poultry, dairy, honey, fruits, vegetables, grains, mushrooms, spirulina, and renewable biogas energy." },
-    { id: 10, question: "What is the impact of SOIFS on the environment?", answer: "SOIFS reduces environmental impact by promoting organic farming, recycling water, generating renewable energy, and sequestering carbon through tree planting." },
+    {
+        id: 1,
+        question: "How long does it take to complete a project?",
+        answer: "The timeline varies based on the project's complexity. We provide a detailed project plan and milestones during the initial consultation."
+    },
+    {
+        id: 2,
+        question: "Do you provide custom software development?",
+        answer: "Yes, we offer custom software development tailored to your business needs, ensuring scalability, efficiency, and innovation."
+    },
+    {
+        id: 3,
+        question: "Do you optimize websites for SEO?",
+        answer: "Yes, we follow SEO best practices to ensure your website ranks well on search engines and attracts organic traffic."
+    },
+    {
+        id: 4,
+        question: "Can you develop both iOS and Android apps?",
+        answer: "Yes, we develop native apps for both platforms as well as cross-platform apps using frameworks like Flutter and React Native."
+    },
+    {
+        id: 5,
+        question: "What is your approach to system design?",
+        answer: "We focus on creating scalable, secure, and efficient systems using microservices, REST APIs, cloud-native architectures, and modern DevOps practices."
+    },
+    {
+        id: 6,
+        question: "Do you offer UI/UX design services?",
+        answer: "Yes, we provide UI/UX design services to create intuitive, user-friendly interfaces that enhance user engagement and satisfaction."
+    },
+    {
+        id: 7,
+        question: "How do you ensure the quality of your work?",
+        answer: "We follow Agile methodologies, conduct rigorous testing, and adhere to industry best practices to deliver high-quality solutions."
+    },
+    {
+        id: 8,
+        question: "Do you provide ongoing support and maintenance?",
+        answer: "Yes, we offer post-development support and maintenance to ensure your software, app, or website remains functional and up-to-date."
+    },
+    {
+        id: 9,
+        question: "What is your pricing model?",
+        answer: "Our pricing depends on the project scope and complexity. We offer flexible models, including fixed-price, hourly rates, and dedicated team options."
+    },
+    {
+        id: 10,
+        question: "Can you redesign or upgrade an existing system?",
+        answer: "Absolutely! We specialize in modernizing and upgrading existing systems to improve performance, scalability, and user experience."
+    },
+    {
+        id: 11,
+        question: "How do you handle project communication and updates?",
+        answer: "We use tools like Slack, Zoom, and project management platforms (e.g., Jira, Trello) to provide regular updates and maintain transparent communication."
+    },
+    {
+        id: 12,
+        question: "What industries do you cater to?",
+        answer: "We work with clients across various industries, including healthcare, e-commerce, education, finance, and more, delivering tailored solutions for each sector."
+    }
 ];
