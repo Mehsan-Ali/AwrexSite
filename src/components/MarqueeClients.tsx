@@ -24,7 +24,7 @@ const MarqueeClients: React.FC = () => {
         <div className="py-10 space-y-5">
             <div className="flex text-center items-center flex-col">
                 <h2 className="text-3xl lg:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-blue-100">Our Clients</h2>
-                <h3 className="text-lg text-slate-500 leading-relaxed max-w-2xl mt-4">
+                <h3 className="text-base sm:text-lg text-slate-500 leading-relaxed max-w-2xl mt-4">
                     We've helped businesses of all sizes across various industries achieve their goals through custom software solutions.
                 </h3>
             </div>
