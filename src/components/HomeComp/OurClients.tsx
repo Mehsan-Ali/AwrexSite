@@ -56,7 +56,7 @@ const OurClient: React.FC<MarqueeProps> = ({ logos, speed = 20, logoHeight = 50,
                 @media (max-width: 480px) {
                     .marquee-container img {
                         height: ${logoHeight * 0.8}px;
-                        margin-right: ${spacing * 0.8}px;
+                        margin-right: ${spacing * 0.5}px;
                     }
                 }
                 `}
