@@ -1,5 +1,6 @@
 import { MoveRight, Facebook, Linkedin, Mail, MapPinned, PhoneCall, X, Youtube } from 'lucide-react';
 import Logo from "../assets/Awrex2.jpg"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -14,7 +15,7 @@ const Footer = () => {
                             <img
                                 src={Logo}
                                 className="h-14 w-auto rounded-2xl"
-                                alt="Awrex Solutions" 
+                                alt="Awrex Solutions"
                                 title='Awrex'
                             />
                             <h2 className='font-semibold text-xl'>
@@ -40,17 +41,17 @@ const Footer = () => {
 
                     <div className='flex flex-col gap-3 text-gray-100 grow'>
                         <h1 className='font-bold text-xl py-4 uppercase'>Services</h1>
-                        <ul className='flex flex-col gap-5'>
+                        <ul className='flex flex-col gap-5 space-y-2'>
                             {
                                 serviceLinks.map((item, index) => (
-                                    <a href={item.path} key={index} className='py-1'>
-                                        <li className='hover:text-[#d4d4d4] hover:transition hover:ease-linear hover:duration-300 hover:translate-x-3 duration-300'>
+                                    <li key={index} className='hover:text-[#d4d4d4] hover:transition hover:ease-linear hover:duration-300 hover:translate-x-3 duration-300'>
+                                        <Link to={item.path} className='py-1'>
                                             {/* {item.icon} */}
                                             <span className='relative pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-[#ffffff] after:transition-all after:duration-300 hover:after:w-full '>
                                                 {item.title}
                                             </span>
-                                        </li>
-                                    </a>
+                                        </Link>
+                                    </li>
                                 ))
                             }
                         </ul>
@@ -58,17 +59,17 @@ const Footer = () => {
 
                     <div className='flex flex-col gap-3 text-gray-100 grow'>
                         <h1 className='font-bold text-xl py-4 uppercase'>Company</h1>
-                        <ul className='flex flex-col gap-5'>
+                        <ul className='flex flex-col gap-5 space-y-2'>
                             {
                                 usefulLinks.map((item, index) => (
-                                    <a href={item.path} key={index} className='py-1'>
-                                        <li className='hover:text-[#d4d4d4] hover:transition hover:ease-linear hover:duration-300 hover:translate-x-3 duration-300'>
+                                    <li key={index} className='hover:text-[#d4d4d4] hover:transition hover:ease-linear hover:duration-300 hover:translate-x-3 duration-300'>
+                                        <Link to={item.path} className='py-1'>
                                             {/* {item.icon} */}
                                             <span className='relative pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-[#ffffff] after:transition-all after:duration-300 hover:after:w-full '>
                                                 {item.title}
                                             </span>
-                                        </li>
-                                    </a>
+                                        </Link>
+                                    </li>
                                 ))
                             }
                         </ul>
@@ -94,7 +95,7 @@ const Footer = () => {
 
             <div className='text-white font-semibold text-center py-5 sm:py-5'>
                 {/* <a href={'https://sphere.com.pk'}> */}
-                    Copyright © {currentYear} Awrex. All Right Reserved
+                Copyright © {currentYear} Awrex. All Right Reserved
                 {/* </a> */}
             </div>
         </div>
