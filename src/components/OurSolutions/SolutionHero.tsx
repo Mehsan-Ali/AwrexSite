@@ -42,8 +42,8 @@ const SolutionHero = ({ solution }: { solution: any }) => {
                             src={solution.image}
                             alt={solution.title}
                             title={solution.title}
-                            width={600}
-                            height={600}
+                            // width={600}
+                            // height={600}
                             className="relative z-10 rounded-2xl object-cover w-full h-full"
                             loading='lazy'
                         />
