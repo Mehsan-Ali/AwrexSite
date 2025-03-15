@@ -44,8 +44,8 @@ const EmergingHero = ({ solution }: { solution: any }) => {
                             title={solution.title}
                             width={500}
                             height={500}
-                            className="relative z-10 rounded-2xl object-cover"
-                            loading='lazy'
+                            className="relative z-10 rounded-2xl object-cover h-full w-full"
+                            // loading='lazy'
                         />
                     </div>
                 </div>
