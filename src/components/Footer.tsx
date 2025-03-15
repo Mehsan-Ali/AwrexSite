@@ -12,9 +12,10 @@ const Footer = () => {
                     <div className='text-gray-50 max-w-[20rem] grow'>
                         <div className='flex items-center gap-3 py-5'>
                             <img
-                                alt="Awrex Solutions"
                                 src={Logo}
                                 className="h-14 w-auto rounded-2xl"
+                                alt="Awrex Solutions" 
+                                title='Awrex'
                             />
                             <h2 className='font-semibold text-xl'>
                                 Awrex

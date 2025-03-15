@@ -40,10 +40,11 @@ const ServiceHero = ({ service }: { service: any }) => {
                         <div className="absolute -bottom-16 -left-16 h-64 w-64 rounded-full bg-blue-700/20 blur-3xl" />
                         <img
                             src={service.image}
-                            alt="Software Development"
+                            alt={service.title}
+                            title={service.title}
                             width={600}
                             height={600}
-                            className="relative z-10 rounded-2xl object-cover"
+                            className="relative z-10 rounded-2xl object-cover w-full h-full"
                         />
                     </div>
                 </div>
