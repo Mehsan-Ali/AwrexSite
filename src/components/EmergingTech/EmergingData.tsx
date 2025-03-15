@@ -1,5 +1,5 @@
 import { BarChart, Check, Code, Globe, Lightbulb, Rocket, Shield, Zap } from "lucide-react";
-import DataScienceImage from "../../assets/Emerging/data.png";
+import DataScienceImage from "../../assets/Emerging/data.webp";
 import AIImage from "../../assets/Emerging/ai.png";
 import MachineLearningImage from "../../assets/Emerging/machineLearning.png";
 import MetaverseImage from "../../assets/Emerging/metaverse.png";
