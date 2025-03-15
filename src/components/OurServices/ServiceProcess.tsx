@@ -29,7 +29,7 @@ export default function ProcessSection() {
 
                 <div className="relative px-5 sm:px-0">
                     {/* Central line */}
-                    <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#1b1b1b]/40 via-[#1b1b1b]/20 to-[#1b1b1b]/40 hidden lg:block"></div>
+                    <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#00000011] via-[#1b1b1b8a] to-[#0000003f] hidden lg:block"></div>
 
                     <div className="space-y-24 lg:space-y-0">
                         {/* Step 1 */}
