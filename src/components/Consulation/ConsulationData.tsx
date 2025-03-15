@@ -1,11 +1,11 @@
 import { BarChart, Check, Code, Globe, Lightbulb, Rocket, Shield, Zap } from "lucide-react";
 import DigitalTransformationImage from "../../assets/Consulation/digitalImage.png";
-import ManagedITServicesImage from "../../assets/Consulation/managedIt.png";
-import ITOutsourcingImage from "../../assets/Consulation/itOutsourcing.png";
+import ManagedITServicesImage from "../../assets/Consulation/managedIt.webp";
+import ITOutsourcingImage from "../../assets/Consulation/itOutsourcing.webp";
 import ITConsultingImage from "../../assets/Consulation/itConsult.png";
-import ITSupportImage from "../../assets/Consulation/itSupport.png";
-import DiscoveryWorkshopImage from "../../assets/Consulation/discovery.png";
-import ProductStrategyImage from "../../assets/Consulation/productStrategy.png";
+import ITSupportImage from "../../assets/Consulation/itSupport.webp";
+import DiscoveryWorkshopImage from "../../assets/Consulation/discovery.webp";
+import ProductStrategyImage from "../../assets/Consulation/productStrategy.webp";
 import ProcessConsultingImage from "../../assets/Consulation/processConsult.png";
 
 export const ConsulationData = [
