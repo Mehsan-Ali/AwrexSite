@@ -42,9 +42,9 @@ const EmergingHero = ({ solution }: { solution: any }) => {
                             src={solution.image}
                             alt={solution.title}
                             title={solution.title}
-                            // width={600}
-                            // height={600}
-                            className="relative z-10 rounded-2xl object-cover w-full h-full"
+                            width={500}
+                            height={500}
+                            className="relative z-10 rounded-2xl object-cover"
                             loading='lazy'
                         />
                     </div>
