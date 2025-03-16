@@ -36,7 +36,7 @@ const ConsulationHero = ({ consulation }: { consulation: any }) => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
-                    <div className="relative w-full max-w-xl">
+                    <div className="relative w-full max-w-lg">
                         <div className="absolute -bottom-16 -left-16 h-64 w-64 rounded-full bg-blue-700/20 blur-3xl" />
                         <img
                             src={consulation.image}
