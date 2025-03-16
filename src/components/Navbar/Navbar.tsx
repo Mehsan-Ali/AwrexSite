@@ -52,7 +52,7 @@ export function NavBar() {
         >
             <div className="container mx-auto flex justify-between items-center px-6 py-3 sm:py-0">
                 <Link to="/" className="flex items-center space-x-2">
-                    <img src={AwrexLogo} alt="Awrex Solutions" title='Awrex' className='size-12 sm:size-18' />
+                    <img src={AwrexLogo} alt="Awrex Solutions" title='Awrex' className='size-10 sm:size-18' />
                     <motion.span
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
