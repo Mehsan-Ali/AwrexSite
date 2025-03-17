@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
 
                     <div className='flex flex-col gap-3 text-gray-100 grow'>
-                        <h1 className='font-bold text-xl py-4 uppercase'>Services</h1>
+                        <h4 className='font-bold text-xl py-4 uppercase'>Services</h4>
                         <ul className='flex flex-col gap-5 space-y-2'>
                             {
                                 serviceLinks.map((item, index) => (
